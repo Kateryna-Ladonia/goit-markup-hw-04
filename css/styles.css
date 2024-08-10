@@ -327,6 +327,7 @@ address {
   padding-top: 40px;
   padding-left: 32px;
   padding-right: 32px;
+  color: #fff;
 }
 .section-three-item:hover .overlay {
   transform: translateY(0);
