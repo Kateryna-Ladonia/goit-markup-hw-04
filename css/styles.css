@@ -327,12 +327,12 @@ address {
   row-gap: 48px;
   column-gap: 24px;
 }
+.section-three-item {
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
 .section-three-item-div {
   position: relative;
   overflow: hidden;
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-.overlay {
 }
 .overlay_p {
   font-size: 16px;
@@ -351,7 +351,7 @@ address {
 }
 
 .section-three-item:hover .overlay_p {
-  transform: translateY(0);
+  transform: translateY(0%);
 }
 .section-three-item:hover,
 .section-three-item:focus {
@@ -413,14 +413,23 @@ address {
 .footer-container-two .social-link .social-link-item:hover,
 .footer-container-two .social-link .social-link-item:focus {
   background-color: #31d0aa;
-  transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-content {
   font-size: 16px;
+  font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #f4f4fd;
+  color: #fff;
+  margin-bottom: 16px;
   width: 264px;
+}
+.footer-social-link {
+  width: 40px;
+  height: 40px;
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.footer-social-link-svg {
+  fill: #f4f4fd;
 }
 .footer-link {
   font-family: "Raleway", sans-serif;
