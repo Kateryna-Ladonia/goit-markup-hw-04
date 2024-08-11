@@ -397,6 +397,7 @@ address {
 }
 .footer-container {
   display: flex;
+  align-items: baseline;
 }
 .footer-container-one {
   padding: 15px;
