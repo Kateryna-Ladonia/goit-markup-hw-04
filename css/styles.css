@@ -161,6 +161,7 @@ address {
   background-size: cover;
   background-clip: padding-box;
   max-width: 1440px;
+  margin: 0 auto;
 }
 .hero-title {
   font-weight: 700;
