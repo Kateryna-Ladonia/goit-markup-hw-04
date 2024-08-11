@@ -227,7 +227,21 @@ address {
   flex-basis: 264px;
   flex-basis: calc((100%-3 * 24px)) / 4;
 }
-
+.div-svg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background-color: #f4f4fd;
+  margin-bottom: 8px;
+}
+.div-svg svg {
+  margin: 24px auto;
+  display: block;
+}
 .section-two {
   background-color: #f4f4fd;
   padding-top: 120px;
@@ -238,18 +252,7 @@ address {
   display: flex;
   gap: 24px;
 }
-.div-svg {
-  border: 1px solid #8e8f99;
-  border-radius: 4px;
-  width: 264px;
-  height: 112px;
-  background: #f4f4fd;
-  margin-bottom: 8px;
-}
-.div-svg svg {
-  margin: 24px auto;
-  display: block;
-}
+
 .section-two-item {
   background-color: #ffffff;
   flex-basis: 264px;
